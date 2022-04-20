@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/51fcad3f70.js"
+    crossorigin="anonymous"></script>
+  <title>Formulário de Validação</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Crie a sua Conta</h2>
+    </div>
+    <form class="form">
+      <div class="form-control sucess">
+        <label>Nome de Usuário</label>
+        <input type="name" placeholder="Seu nome" id="Nome">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Erro nas informações</small>
+      </div>
+      <div class="form-control error">
+        <label>Email</label>
+        <input type="email" placeholder="exemplo@exemplo.com" id="Email">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Erro nas informações</small>
+      </div>
+      <div class="form-control">
+        <label>Senha</label>
+        <input type="password" id="Senha">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Erro nas informações</small>
+      </div>
+      <div class="form-control">
+        <label>Confirmação de Senha</label>
+        <input type="password" id="Confirmação de Senha">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Erro nas informações</small>
+      </div>
+      <button>Criar Conta</button>
+    </form>
+
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
